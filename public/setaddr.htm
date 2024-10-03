@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SetAddr</title>
+<link href="setaddr_style.css" rel="stylesheet" type="text/css">
+<script src="http://5.198.179.50:8000/dist/setaddr.js" type="module"></script>
+</head>
+
+<body>
+<div class="setaddr_form" id="di_setaddr_form">
+	<h2 class="setaddr_title">Discrete input</h2>
+  <form name="diaddr_form">
+		<input name="num" type="text" class="textbox" placeholder="reg. num 0~63">
+		<input name="addr" type="text" class="textbox" placeholder="reg. num 0~FFFF">
+		<button id="di_setaddr_butt" type="button" class="setbutt">SET</button>
+	</form>	
+</div>
+<div class="setaddr_form" id="coil_setaddr_form">
+	<h2 class="setaddr_title">coil</h2>
+	<form name="coiladdr_form">
+		<input name="num" type="text" class="textbox" placeholder="reg. num 0~63">
+		<input name="addr" type="text" class="textbox" placeholder="reg. num 0~FFFF">
+		<button id="coil_setaddr_butt" type="button" class="setbutt">SET</button>
+	</form>	
+</div>
+<div class="setaddr_form" id="wdata_setaddr_form">
+	<h2 class="setaddr_title">Holding Reg.</h2>
+	<form name="wdataaddr_form">
+		<input class="textbox" type="text" name="num" placeholder="reg. num 0~63">
+		<input name="addr" type="text" class="textbox" placeholder="reg. num 0~FFFF">
+		<button id="wdata_setaddr_butt" type="button" class="setbutt">SET</button>
+	</form>	
+</div>
+	
+</body>
+</html>

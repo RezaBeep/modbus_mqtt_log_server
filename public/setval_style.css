@@ -1,0 +1,40 @@
+.on_opt{
+	background: #0D801A;
+	color: aliceblue;
+}
+
+
+.off_opt{
+	background: #AE0508;
+	color: aliceblue;
+}
+
+
+.setbutt{
+	background: #F33235;
+	color: aliceblue;
+}
+
+.input{
+	width: 400px;
+	display: flex;
+	flex-direction: row;
+	margin: 50px;
+}
+
+
+.setval_form{
+	margin: 40px;
+}
+
+
+.hint{
+	width: 500px;
+	display: flex;
+	flex-direction: row;
+	margin: 50px;
+	
+	
+}.page_title {
+	color: #D91417
+}

@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+.setaddr_form{
+	width: 300px
+}
+
+
+.setbutt{
+	background: #E90A0E;
+	color: antiquewhite;
+}
+
+
+.setaddr_title{
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
+}
+
+
+.textbox{
+	border-width: thick;
+}
