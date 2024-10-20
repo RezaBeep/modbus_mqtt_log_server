@@ -76,8 +76,8 @@ mqttc.on_connect_fail = on_connect_fail
 
 
 app = FastAPI()
-app.mount("/public", StaticFiles(directory="/home/reza/modbus_mqtt/public", html=True), name='html')
-app.mount("/dist", StaticFiles(directory="/home/reza/modbus_mqtt/dist"), name='js')
+app.mount("/public", StaticFiles(directory="~/modbus_mqtt/public", html=True), name='html')
+app.mount("/dist", StaticFiles(directory="dist"), name='js')
 
 
 app.add_middleware(

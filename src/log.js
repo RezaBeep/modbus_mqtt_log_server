@@ -6,7 +6,7 @@ const REG_TYPE_COIL = "COIL";
 const REG_TYPE_WDATA = "WDATA";
 
 // Create WebSocket connection.
-const socket = new WebSocket("ws://localhost:8000/ws");
+const socket = new WebSocket("ws://5.198.179.50:8000/ws");
 
 // Connection opened
 socket.addEventListener("open", (event) => {
