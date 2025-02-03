@@ -21,7 +21,7 @@ function set_addr(reg_type){
         reg_addr = document.forms["wdataaddr_form"]["addr"].value;
         reg_num = document.forms["wdataaddr_form"]["num"].value;
     }
-    fetch('http://5.198.179.50:8000/setaddr', {
+    fetch('http://84.47.235.178:8000/setaddr', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

@@ -19,7 +19,7 @@ mqttc = mqtt.Client()
 mqttc.on_connect = on_connect
 mqttc.on_message = on_message
 
-mqttc.connect("5.198.179.50", 1883, 60)
+mqttc.connect("84.47.235.178", 1883, 60)
 
 # Non-Blocking call that processes network traffic, dispatches callbacks and
 # handles reconnecting.

@@ -155,7 +155,7 @@ async def websocket_endpoint(websocket: WebSocket):
         await websocket_send_reg_value(websocket)
         await asyncio.sleep(2)
 
-mqttc.connect("5.198.179.50", 1883, 60)
+mqttc.connect("84.47.235.178", 1883, 60)
 
 # Non-Blocking call that processes network traffic, dispatches callbacks and
 # handles reconnecting.

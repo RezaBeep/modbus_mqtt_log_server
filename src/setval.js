@@ -18,7 +18,7 @@ function set_val(reg_type){
         reg_val = document.forms["wdataval_form"]["val"].value;
         reg_num = document.forms["wdataval_form"]["num"].value;
     }
-    fetch('http://5.198.179.50:8000/setval', {
+    fetch('http://84.47.235.178:8000/setval', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
